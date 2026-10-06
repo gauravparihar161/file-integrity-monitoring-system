@@ -1,4 +1,4 @@
-# File Integrity Monitor
+# File Integrity Monitoring System
 
 A Python command-line file integrity monitor for Linux and other Python 3.10+ systems. It builds a trusted SHA-256 baseline, periodically compares current file content and selected metadata, and reports created, modified, deleted, and metadata-changed files. Scan failures are logged. Deletions are suppressed when a scan is incomplete, avoiding false deletion alerts caused by permission or I/O errors.
 
