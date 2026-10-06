@@ -1,0 +1,9 @@
+{
+  "watch": ["./demo-data"],
+  "exclude": ["**/.git/**", "**/__pycache__/**", "*.tmp"],
+  "baseline": "./.fim/baseline.json",
+  "log": "./.fim/events.jsonl",
+  "interval_seconds": 15,
+  "hash_chunk_size": 1048576,
+  "symlinks": "skip"
+}

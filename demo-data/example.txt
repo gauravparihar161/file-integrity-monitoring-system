@@ -1,0 +1,2 @@
+This is a sample monitored file. Edit it to trigger a modification alert.
+Note it is edited now!
